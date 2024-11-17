@@ -26,25 +26,25 @@ ZMK_TRI_STATE(swapper,
 &caps_word { /delete-property/ ignore-modifiers; };
 
 / {
-    macros {
-        cddot: cddot {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DOT &kp DOT &kp FSLH>, <&macro_tap>, <&cddot>;
-
-            label = "CDDOT";
-        };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-
-        dotdot {
-            bindings = <&cddot>;
-            key-positions = <33 28>;
-            layers = <2>;
-        };
-    };
+//    macros {
+//        cddot: cddot {
+//            compatible = "zmk,behavior-macro";
+//            #binding-cells = <0>;
+//            bindings = <&kp DOT &kp DOT &kp FSLH>, <&macro_tap>, <&cddot>;
+//
+//            label = "CDDOT";
+//        };
+//    };
+//
+//    combos {
+//        compatible = "zmk,combos";
+//
+//        dotdot {
+//            bindings = <&cddot>;
+//            key-positions = <33 28>;
+//            layers = <2>;
+//        };
+//    };
 
     keymap {
         compatible = "zmk,keymap";
