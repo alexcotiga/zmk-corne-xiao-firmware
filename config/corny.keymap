@@ -15,7 +15,6 @@ ZMK_MOD_MORPH(smart_shft,
 // Alt+Tab swapper, requires PR #1366
 ZMK_TRI_STATE(swapper,
     bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
-    ignored-key-positions = <LT2>;
 )
 
 &caps_word {
