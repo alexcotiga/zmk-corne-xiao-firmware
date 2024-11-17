@@ -30,7 +30,7 @@ ZMK_TRI_STATE(swapper,
         cddot: cddot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOT &kp DOT &kp FSLH>, <&macro_press>, <&cddot>;
+            bindings = <&kp DOT &kp DOT &kp FSLH>, <&macro_tap>, <&cddot>;
 
             label = "CDDOT";
         };
