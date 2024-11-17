@@ -19,8 +19,8 @@ ZMK_MOD_MORPH(smart_shft,
 
 ZMK_TRI_STATE(swapper,
     bindings = <&kt LGUI>, <&kp TAB>, <&kt LGUI>;
-    ignored-layers = <NAV>;
-    // ignored-key-positions = <>;
+    ignored-layers = <1>;
+    ignored-key-positions = <1 19 21>;
 )
 
 &caps_word { /delete-property/ ignore-modifiers; };
