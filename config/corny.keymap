@@ -58,8 +58,8 @@ ZMK_TRI_STATE(swapper,
             bindings = <
 &kp TAB      &kp Q  &kp W  &kp E  &kp R  &kp T                           &kp Y      &kp U  &kp I      &kp O    &kp P          &kp BSPC
 &smart_shft  &kp A  &kp S  &kp D  &kp F  &kp G                           &kp H      &kp J  &kp K      &kp L    &kp SQT        &smart_shft
-&kp ESC      &kp Z  &kp X  &kp C  &kp V  &kp B        &none  &kp C_MUTE  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON  &key_repeat
-                        &mo 4  &sl 3  &sl 1                     &kp SPACE  &sl 2  &mo 4
+&kp ESC      &kp Z  &kp X  &kp C  &kp V  &kp B     &none  &kp C_MUTE     &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON  &key_repeat
+                                  &mo 4  &sl 3  &sl 1         &kp SPACE  &sl 2  &mo 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -120,12 +120,12 @@ ZMK_TRI_STATE(swapper,
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        num_act {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+//    conditional_layers {
+//        compatible = "zmk,conditional-layers";
+//
+//        num_act {
+//            if-layers = <1 2>;
+//            then-layer = <3>;
+//        };
+//    };
 };
