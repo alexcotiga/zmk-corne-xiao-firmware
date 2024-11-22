@@ -25,9 +25,8 @@ ZMK_TRI_STATE(swapper,
 &caps_word { /delete-property/ ignore-modifiers; };
 
 &lt {
-    tapping-term-ms = <100>;
-    flavor = "tap-unless-interrupted";
-    hold-while-undecided = true;
+    tapping-term-ms = <200>;
+    flavor = "hold-preferred";
 };
 
 / {
