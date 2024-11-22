@@ -27,7 +27,7 @@ ZMK_TRI_STATE(swapper,
 &lt {
     tapping-term-ms = <100>;
     flavor = "tap-unless-interrupted";
-    hold-while-undecided;
+    hold-while-undecided = true;
 };
 
 / {
